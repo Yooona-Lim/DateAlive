@@ -1,9 +1,9 @@
 <!doctype html>
-<html>
+<html lang="zh">
 <head>
 <meta charset="utf-8">
 <title>在线报名</title>
-<link href="../CSS/register.css" type="text/css" rel="stylesheet" />
+<link href="CSS/register.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div class="box">
@@ -12,11 +12,15 @@
     	<table class="content">
         	<tr>
             	<td class="left">姓名<span class="red">*</span></td>
-                <td><input type="text" value="请认真填写哟" class="txt01" /></td>
+                <td><label>
+					<input type="text" value="请认真填写哟" class="txt01" />
+				</label></td>
             </tr>
 							<tr>
 								<td class="left">手机<span class="red">*</span></td>
-									<td><input type="text" value="请认真填写哟" class="txt02" /></td>
+									<td><label>
+										<input type="text" value="请认真填写哟" class="txt02" />
+									</label></td>
 							</tr>
 							<tr>
 								<td class="left">性别<span class="red">*</span></td>
@@ -27,17 +31,21 @@
 							</tr>
 							<tr>
 								<td class="left">邮箱<span class="red">*</span></td>
-									<td><input type="text" class="txt03" /></td>
+									<td><label>
+										<input type="text" class="txt03" />
+									</label></td>
 							</tr>
              <tr>
             	<td class="left">喜欢哪个精灵？<span class="red">*</span></td>
                 <td>
-                	<select class="course">
-                    	<option>十香</option>
-                    	<option selected="selected">美九</option>
-                        <option>狂三</option>
-                    </select>
-                </td>
+					<label>
+						<select class="course">
+							<option>十香</option>
+							<option selected="selected">美九</option>
+							<option>狂三</option>
+						</select>
+					</label>
+				</td>
             </tr>
             <tr>
             	<td class="left">你是怎么了解约战的呢</td>
@@ -52,7 +60,9 @@
             </tr>
             <tr>
             	<td class="left">留言</td>
-                <td><textarea cols="50" rows="5" class="message">二次元斯基畅所欲言</textarea></td>
+                <td><label>
+					<textarea cols="50" rows="5" class="message">二次元斯基畅所欲言</textarea>
+				</label></td>
             </tr>
             <tr>
             	<td>&nbsp;</td>

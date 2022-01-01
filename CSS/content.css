@@ -2,7 +2,7 @@ body {
 	background: url(../IMAGE/zhongrentu_background.jpg);
 	/* 插入淡化过的背景图片 */
 }
-.bigbox{
+.bigBox{
 	width: 1300px;
 	height: 2089px;
 	margin: 0 auto;
